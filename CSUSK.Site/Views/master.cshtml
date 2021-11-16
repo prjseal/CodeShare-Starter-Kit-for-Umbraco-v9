@@ -1,0 +1,44 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @await Html.PartialAsync("Partials/SiteLayout/_MetaData")
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    @{
+        //styles
+        SmidgeHelper.RequiresCss("~/csusk-assets/css/Footer-Basic.css");
+        SmidgeHelper.RequiresCss("~/csusk-assets/css/Navigation-Clean1.css");
+        SmidgeHelper.RequiresCss("~/csusk-assets/css/News-Cards.css");
+        SmidgeHelper.RequiresCss("~/csusk-assets/css/styles.css");
+
+        //scripts
+        SmidgeHelper.RequiresJs("https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js");
+        SmidgeHelper.RequiresJs("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js");
+
+        SmidgeHelper.RequiresJs("~/csusk-assets/scripts/navigationMenu.js");
+    }
+
+    @await SmidgeHelper.CssHereAsync(debug: true)
+
+</head>
+<body>
+    <div style="margin-top:70px;"></div>
+    @await Html.PartialAsync("Partials/SiteLayout/_MainNavigation")
+
+    @RenderBody()
+
+    @await Html.PartialAsync("Partials/SiteLayout/_Footer")
+
+    @await SmidgeHelper.JsHereAsync(debug: true)
+</body>
+</html>

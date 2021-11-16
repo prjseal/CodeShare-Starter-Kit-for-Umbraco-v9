@@ -1,0 +1,8 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+
+@{
+    Layout = "Master.cshtml";
+    SmidgeHelper.RequiresCss("/css/Article-Clean.css");
+}
+
+@await Html.PartialAsync("Content/_ArticleContent")

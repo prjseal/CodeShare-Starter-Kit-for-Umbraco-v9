@@ -1,0 +1,11 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+
+@{
+    Layout = "Master.cshtml";
+    SmidgeHelper.RequiresCss("/css/Article-List.css");
+    SmidgeHelper.RequiresCss("/css/Carousel-Hero.css");
+}
+
+@await Html.PartialAsync("Content/_MainCarousel")
+
+@await Html.PartialAsync("Content/_LatestArticles")
