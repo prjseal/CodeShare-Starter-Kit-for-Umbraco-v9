@@ -2,7 +2,7 @@
 
 @using CSUSK.Core.Models.ViewModels;
 
-@using (Html.BeginUmbracoForm("SubmitForm", "ContactSurface", FormMethod.Post, new { @class = "text-left" }))
+@using (Html.BeginUmbracoForm("SubmitForm", "ContactSurface", FormMethod.Post, new { @class = "text-left", @id = "contact-form" }))
 {
     <div class="form-group">
         <input asp-for="@Model.Name" class="form-control" placeholder="Name" />
