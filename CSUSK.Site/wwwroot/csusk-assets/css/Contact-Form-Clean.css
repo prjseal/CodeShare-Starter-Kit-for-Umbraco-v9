@@ -38,6 +38,10 @@
   color:inherit;
 }
 
+.contact-clean .form-group {
+    margin-bottom: 15px;
+}
+
 .contact-clean .form-group:last-child {
   margin-bottom:5px;
 }
@@ -51,6 +55,7 @@
   color:inherit;
   padding-left:12px;
   height:42px;
+  margin-bottom: 15px;
 }
 
 .contact-clean form .form-control:focus {
@@ -99,7 +104,8 @@
 
 .contact-clean form .btn-primary {
   background-color:#055ada !important;
-  margin-top:15px;
+  margin-top:0px;
+  margin-bottom:15px;
   color:#fff;
 }
 
