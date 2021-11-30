@@ -1,0 +1,1745 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<umbPackage>
+  <info>
+    <package>
+      <name>CodeShare</name>
+    </package>
+  </info>
+  <Documents>
+    <DocumentSet importMode="root">
+      <home id="1080" key="a53c075a-61a2-456e-a73d-e65e52efea92" parentID="-1" level="1" creatorID="-1" sortOrder="0" createDate="2021-11-12T21:28:28" updateDate="2021-11-12T22:06:32" nodeName="Home" urlName="home" path="-1,1080" isDoc="" nodeType="1061" nodeTypeAlias="home" creatorName="Admin User" writerName="Admin User" writerID="-1" template="1102" isPublished="true">
+        <umbracoNaviHide>0</umbracoNaviHide>
+        <disableDropdown>0</disableDropdown>
+        <textOnlyInNavigation>0</textOnlyInNavigation>
+        <footerTitle><![CDATA[Codeshare]]></footerTitle>
+        <footerLinks><![CDATA[[{"name":"About","udi":"umb://document/67ab09ce31cf43b497ca1bc567376a42","queryString":""},{"name":"Our Umbraco","target":"_blank","url":"https://our.umbraco.com","queryString":""}]]]></footerLinks>
+        <footerSocialLinks><![CDATA[[{"name":"facebook","target":"_blank","url":"https://www.facebook.com/codeshare.co.uk"},{"name":"linkedin","target":"_blank","url":"https://www.linkedin.com/in/paul-seal-3064892"},{"name":"twitter","target":"_blank","url":"https://www.twitter.com/CodeSharePaul"},{"name":"youtube-play","target":"_blank","url":"https://www.youtube.com/user/pcHelpFromPaul"}]]]></footerSocialLinks>
+        <mainCarousel><![CDATA[[{"key":"2d49edd1-3d95-4903-b4f9-f848b28e6912","name":"CodeShare Starter Kit","ncContentTypeAlias":"carouselSlide","PropType":null,"slideTitle":"CodeShare Starter Kit","slideSubtitle":"This starter kit has been made to help you learn how to use Umbraco. It was created by Paul Seal from codeshare.co.uk.","slideImage":"umb://media/6c9e4f4e897848bb8d1efae497ab0294","slideLink":"[{\"name\":\"Visit codeshare.co.uk\",\"target\":\"_blank\",\"url\":\"https://codeshare.co.uk\"}]"},{"key":"4e3e0542-6733-40aa-8dd8-46af70a24e3d","name":"Navigation Menu","ncContentTypeAlias":"carouselSlide","PropType":null,"slideTitle":"Navigation Menu","slideSubtitle":"This website uses Bootstrap and is an example of how to create a navigation menu with dropdowns, based on the content of the site.","slideImage":"umb://media/4a1f03b611cc410dbc8ad68128a9b19d","slideLink":"[{\"name\":\"View source code\",\"target\":\"_blank\",\"url\":\"https://github.com/prjseal/CodeShare-Umbraco-Starter-Kit-for-v8/blob/master/src/CSUSK.Web/Views/Partials/SiteLayout/_MainNavigation.cshtml\"}]"},{"key":"6bdd3ba2-5982-4502-992d-f96c45b99bcd","name":"Nested Content","ncContentTypeAlias":"carouselSlide","PropType":null,"slideTitle":"Nested Content","slideSubtitle":"This carousel slider has been built using Nested Content. It allows you to add multiple items to a single property.","slideImage":"umb://media/f1aee13d514d4b28bfd42a7b8dbf686b","slideLink":"[{\"name\":\"View Source Code\",\"target\":\"_blank\",\"url\":\"https://github.com/prjseal/CodeShare-Umbraco-Starter-Kit-for-v8/blob/master/src/CSUSK.Web/Views/Partials/Content/_MainCarousel.cshtml\",\"queryString\":\"\"}]"}]]]></mainCarousel>
+        <metaDescription><![CDATA[CodeShare starter kit for Umbraco by Paul Seal from codeshare.co.uk]]></metaDescription>
+        <metaKeywords><![CDATA[["Codeshare","starter","kit","umbraco"]]]></metaKeywords>
+        <latestArticlesTitle><![CDATA[Latest from the blog]]></latestArticlesTitle>
+        <latestArticlesSubtitle><![CDATA[Here are some articles from the blog, you can use it as a blog or news. The articles are sorted by article date in descending order so the most recent ones show first.]]></latestArticlesSubtitle>
+        <content id="1081" key="67ab09ce-31cf-43b4-97ca-1bc567376a42" parentID="1080" level="2" creatorID="-1" sortOrder="0" createDate="2021-11-12T21:28:28" updateDate="2021-11-27T14:32:47" nodeName="About" urlName="about" path="-1,1080,1081" isDoc="" nodeType="1060" nodeTypeAlias="content" creatorName="Admin User" writerName="Admin User" writerID="-1" template="1101" isPublished="true">
+          <metaDescription><![CDATA[About this starter kit]]></metaDescription>
+          <metaKeywords><![CDATA[["about"]]]></metaKeywords>
+          <mainImage><![CDATA[umb://media/2082c6be842f4bd5b92c0ee480c7bdb9]]></mainImage>
+          <contentGrid><![CDATA[{"name":"1 column layout","sections":[{"grid":"12","rows":[{"name":"Full width","id":"aa3e8e0f-8db3-9f71-92b2-b946c6699997","areas":[{"grid":"12","controls":[{"value":"<h2>It's here</h2>\n<p>The starter kit you have been waiting for is finally here. You are actually using it or viewing it now.</p>\n<h3>What is included?</h3>\n<p>In this starter kit you will see examples of how to do certain things in Umbraco such as:</p>\n<ul>\n<li>A Bootstrap carousel using Nested Content in the backend.</li>\n<li>A Bootstrap navigation menu with dropdowns.</li>\n<li>Pretty links, you can create links as content items. See 'Links' in the navigation menu.</li>\n<li>Contact form which uses Ajax</li>\n<li>Simple search to help users find content on your site.</li>\n</ul>\n<h3>Want to learn more?</h3>\n<p>If you enjoy using this starter kit and would like to learn more about how I create Umbraco sites, visit my website <a rel=\"noopener noreferrer\" href=\"http://www.codeshare.co.uk/\" target=\"_blank\">codeshare.co.uk</a> or check subscribe to my <a rel=\"noopener noreferrer\" href=\"https://www.youtube.com/user/pcHelpFromPaul\" target=\"_blank\">YouTube channel</a>.</p>\n<h3>Want to thank me?</h3>\n<p>If you would like to thank me, why not <a rel=\"noopener\" href=\"https://codeshare.co.uk/coffee\" target=\"_blank\">buy me a coffee</a>? It would be much appreciated and I will do my best to turn that coffee into code.</p>","editor":{"alias":"rte","view":"rte"},"styles":null,"config":null}],"styles":null,"config":null}],"styles":null,"config":null},{"name":"Half and half","id":"5442d7eb-7276-4328-b754-67dea693c281","areas":[{"grid":"6","controls":[{"value":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>","editor":{"alias":"rte","view":"rte"},"styles":null,"config":null}],"styles":null,"config":null},{"grid":"6","controls":[{"value":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>","editor":{"alias":"rte","view":"rte"},"styles":null,"config":null}],"styles":null,"config":null}],"styles":null,"config":null},{"name":"Full width","id":"9d1f337a-f3d3-4de5-8f2d-47869821be97","areas":[{"grid":"12","controls":[{"value":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>","editor":{"alias":"rte","view":"rte"},"styles":null,"config":null}],"styles":null,"config":null}],"styles":null,"config":null},{"name":"Thirds","id":"da14aa59-e5a9-4175-b93a-b2a0d8419293","areas":[{"grid":"4","controls":[{"value":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>","editor":{"alias":"rte","view":"rte"},"styles":null,"config":null}],"styles":null,"config":null},{"grid":"4","controls":[{"value":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>","editor":{"alias":"rte","view":"rte"},"styles":null,"config":null}],"styles":null,"config":null},{"grid":"4","controls":[{"value":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>","editor":{"alias":"rte","view":"rte"},"styles":null,"config":null}],"styles":null,"config":null}],"styles":null,"config":null}]}]}]]></contentGrid>
+          <umbracoNaviHide>0</umbracoNaviHide>
+          <disableDropdown>0</disableDropdown>
+          <textOnlyInNavigation>0</textOnlyInNavigation>
+        </content>
+        <articleList id="1082" key="7da6f326-9aef-4b49-9444-86ca33f6bec3" parentID="1080" level="2" creatorID="-1" sortOrder="1" createDate="2021-11-12T21:28:28" updateDate="2021-11-16T22:01:13" nodeName="Blog" urlName="blog" path="-1,1080,1082" isDoc="" nodeType="1058" nodeTypeAlias="articleList" creatorName="Admin User" writerName="Admin User" writerID="-1" template="1099" isPublished="true">
+          <umbracoNaviHide>0</umbracoNaviHide>
+          <disableDropdown>1</disableDropdown>
+          <textOnlyInNavigation>0</textOnlyInNavigation>
+          <metaDescription><![CDATA[Latest articles from the blog]]></metaDescription>
+          <metaKeywords><![CDATA[["blog"]]]></metaKeywords>
+          <latestArticlesTitle><![CDATA[Latest from the blog]]></latestArticlesTitle>
+          <latestArticlesSubtitle><![CDATA[Here are some articles from the blog, you can use it as a blog or news. The articles are sorted by article date in descending order so the most recent ones show first.]]></latestArticlesSubtitle>
+          <article id="1089" key="ae01b184-a845-48f2-a0bd-a2254d02857e" parentID="1082" level="3" creatorID="-1" sortOrder="0" createDate="2021-11-12T21:28:28" updateDate="2021-11-12T22:06:32" nodeName="CodeShare Starter Kit is released" urlName="codeshare-starter-kit-is-released" path="-1,1080,1082,1089" isDoc="" nodeType="1057" nodeTypeAlias="article" creatorName="Admin User" writerName="Admin User" writerID="-1" template="1098" isPublished="true">
+            <articleDate>2017-12-07T00:00:00</articleDate>
+            <authorName><![CDATA[Paul Seal]]></authorName>
+            <mainImage><![CDATA[umb://media/2082c6be842f4bd5b92c0ee480c7bdb9]]></mainImage>
+            <contentGrid><![CDATA[{
+  "name": "1 column layout",
+  "sections": [
+    {
+      "grid": 12,
+      "rows": [
+        {
+          "name": "Full width",
+          "areas": [
+            {
+              "grid": 12,
+              "allowAll": true,
+              "hasConfig": false,
+              "controls": [
+                {
+                  "value": "<h2>It's here</h2>\n<p>The starter kit you have been waiting for is finally here. You are actually using it or viewing it now.</p>\n<h3>What is included?</h3>\n<p>In this starter kit you will see examples of how to do certain things in Umbraco such as:</p>\n<ul>\n<li>A Bootstrap carousel using Nested Content in the backend.</li>\n<li>A Bootstrap navigation menu with dropdowns.</li>\n<li>Pretty links, you can create links as content items. See 'Links' in the navigation menu.</li>\n<li>Contact form which uses Ajax</li>\n<li>Simple search to help users find content on your site.</li>\n</ul>\n<h3>Want to learn more?</h3>\n<p>If you enjoy using this starter kit and would like to learn more about how I create Umbraco sites, visit my website<span> </span><a rel=\"noopener noreferrer\" href=\"http://www.codeshare.co.uk\" target=\"_blank\">codeshare.co.uk</a> or check subscribe to my<span> </span><a rel=\"noopener noreferrer\" href=\"https://www.youtube.com/user/pcHelpFromPaul\" target=\"_blank\">YouTube channel</a>.</p>",
+                  "editor": {
+                    "name": "Rich text editor",
+                    "alias": "rte",
+                    "view": "rte",
+                    "render": null,
+                    "icon": "icon-article",
+                    "config": {}
+                  },
+                  "active": false
+                }
+              ]
+            }
+          ],
+          "label": "Full width",
+          "hasConfig": false,
+          "id": "9d679182-bfcd-c64c-305b-70284777fe55"
+        }
+      ]
+    }
+  ]
+}]]></contentGrid>
+            <metaDescription><![CDATA[The starter you have been waiting for is finally here. You are actually using it or viewing it now.]]></metaDescription>
+            <metaKeywords><![CDATA[[]]]></metaKeywords>
+            <umbracoNaviHide>0</umbracoNaviHide>
+            <disableDropdown>0</disableDropdown>
+            <textOnlyInNavigation>0</textOnlyInNavigation>
+          </article>
+          <article id="1095" key="580d0738-ba3b-447c-8907-a3a04b6af3e3" parentID="1082" level="3" creatorID="-1" sortOrder="1" createDate="2021-11-12T21:28:28" updateDate="2021-11-29T22:10:14" nodeName="Umbraco v9 is released" urlName="umbraco-v9-is-released" path="-1,1080,1082,1095" isDoc="" nodeType="1057" nodeTypeAlias="article" creatorName="Admin User" writerName="Admin User" writerID="-1" template="1098" isPublished="true">
+            <articleDate>2019-02-26T00:00:00</articleDate>
+            <authorName><![CDATA[Paul Seal]]></authorName>
+            <mainImage><![CDATA[umb://media/6c9e4f4e897848bb8d1efae497ab0294]]></mainImage>
+            <contentGrid><![CDATA[{"name":"1 column layout","sections":[{"grid":"12","rows":[{"name":"Full width","id":"016855e6-d7c1-5a01-8dcd-bd9c2c1ee772","areas":[{"grid":"12","controls":[{"value":"<h2>Hurray</h2>\n<p>The new cleaner and faster version of Umbraco has now been released for everyone to use.</p>\n<h3><strong>What are the new features?</strong></h3>\n<ul>\n<li>Runs on .NET 5 (.NET Core)</li>\n<li>Runs on Windows, Mac, Linux etc</li>\n<li>History Cleanup</li>\n</ul>\n<p>You can find out more about the release of Umbraco v9 on the official Umbraco <a rel=\"noopener\" href=\"https://umbraco.com/blog/umbraco-9-release/\" target=\"_blank\">website</a>.</p>\n<p>If you want to know more about Umbraco v9 from a developer's perspective then check out this <a rel=\"noopener\" href=\"https://umbraco.com/blog/what-has-changed-from-umbraco-version-8-to-9/ges-for-developers/\" target=\"_blank\">blog post</a>.</p>","editor":{"alias":"rte","view":"rte"},"styles":null,"config":null}],"styles":null,"config":null}],"styles":null,"config":null}]}]}]]></contentGrid>
+            <metaDescription><![CDATA[Umbraco v8 is now released. Find out more about it here.]]></metaDescription>
+            <metaKeywords><![CDATA[[]]]></metaKeywords>
+            <umbracoNaviHide>0</umbracoNaviHide>
+            <disableDropdown>0</disableDropdown>
+            <textOnlyInNavigation>0</textOnlyInNavigation>
+          </article>
+          <article id="1090" key="4e35da7e-8aa4-40ba-aa11-ee1b91f664bd" parentID="1082" level="3" creatorID="-1" sortOrder="2" createDate="2021-11-12T21:28:28" updateDate="2021-11-12T22:06:32" nodeName="CodeShare Starter Kit Updated for Umbraco v8" urlName="codeshare-starter-kit-updated-for-umbraco-v8" path="-1,1080,1082,1090" isDoc="" nodeType="1057" nodeTypeAlias="article" creatorName="Admin User" writerName="Admin User" writerID="-1" template="1098" isPublished="true">
+            <articleDate>2019-03-06T00:00:00</articleDate>
+            <authorName><![CDATA[Paul Seal]]></authorName>
+            <mainImage><![CDATA[umb://media/f1aee13d514d4b28bfd42a7b8dbf686b]]></mainImage>
+            <contentGrid><![CDATA[{
+  "name": "1 column layout",
+  "sections": [
+    {
+      "grid": 12,
+      "rows": [
+        {
+          "name": "Full width",
+          "areas": [
+            {
+              "grid": 12,
+              "allowAll": true,
+              "hasConfig": false,
+              "controls": [
+                {
+                  "value": "<p><span>Following on from the success of the CodeShare Starter Kit which was built for Umbraco v7, it is now available for Umbraco v8.</span></p>\n<p><span>Not only has it been updated to work on v8, it has also had some minor alterations to make it run smoother and faster, such as using caching for the navigation and footer links, and using GetCropUrl for the images.</span><span></span></p>",
+                  "editor": {
+                    "name": "Rich text editor",
+                    "alias": "rte",
+                    "view": "rte",
+                    "render": null,
+                    "icon": "icon-article",
+                    "config": {}
+                  },
+                  "active": true
+                }
+              ],
+              "hasActiveChild": true,
+              "active": true
+            }
+          ],
+          "label": "Full width",
+          "hasConfig": false,
+          "id": "1e9f4b48-3d8f-d501-6575-3b78da952618",
+          "hasActiveChild": true,
+          "active": true
+        }
+      ]
+    }
+  ]
+}]]></contentGrid>
+            <metaDescription><![CDATA[The CodeShare Starter Kit has been updated for Umbraco v8 with some improvements for performance.]]></metaDescription>
+            <metaKeywords><![CDATA[["umbraco","starter","kit","v8"]]]></metaKeywords>
+            <umbracoNaviHide>0</umbracoNaviHide>
+            <disableDropdown>0</disableDropdown>
+            <textOnlyInNavigation>0</textOnlyInNavigation>
+          </article>
+        </articleList>
+        <search id="1085" key="5fee5829-096b-4dd7-a3f1-31b908755d43" parentID="1080" level="2" creatorID="-1" sortOrder="2" createDate="2021-11-12T21:28:28" updateDate="2021-11-16T21:54:48" nodeName="Search" urlName="search" path="-1,1080,1085" isDoc="" nodeType="1063" nodeTypeAlias="search" creatorName="Admin User" writerName="Admin User" writerID="-1" template="1105" isPublished="true">
+          <umbracoNaviHide>0</umbracoNaviHide>
+          <disableDropdown>0</disableDropdown>
+          <textOnlyInNavigation>0</textOnlyInNavigation>
+          <metaKeywords><![CDATA[[]]]></metaKeywords>
+        </search>
+        <contact id="1108" key="6598f1b2-a458-4a26-bb80-6798c4cdfc43" parentID="1080" level="2" creatorID="-1" sortOrder="3" createDate="2021-11-16T21:53:14" updateDate="2021-11-16T21:54:48" nodeName="Contact" urlName="contact" path="-1,1080,1108" isDoc="" nodeType="1107" nodeTypeAlias="contact" creatorName="Admin User" writerName="Admin User" writerID="-1" template="1106" isPublished="true">
+          <metaKeywords><![CDATA[[]]]></metaKeywords>
+          <umbracoNaviHide>0</umbracoNaviHide>
+          <disableDropdown>0</disableDropdown>
+          <textOnlyInNavigation>0</textOnlyInNavigation>
+        </contact>
+        <prettyLink id="1084" key="716c2cf1-e155-453b-a1dc-edac2e377941" parentID="1080" level="2" creatorID="-1" sortOrder="4" createDate="2021-11-12T21:28:28" updateDate="2021-11-12T22:06:32" nodeName="Links" urlName="links" path="-1,1080,1084" isDoc="" nodeType="1062" nodeTypeAlias="prettyLink" creatorName="Admin User" writerName="Admin User" writerID="-1" template="1104" isPublished="true">
+          <linkTarget><![CDATA[[{"name":"Links","url":"","queryString":"#links"}]]]></linkTarget>
+          <umbracoNaviHide>0</umbracoNaviHide>
+          <disableDropdown>0</disableDropdown>
+          <textOnlyInNavigation>0</textOnlyInNavigation>
+          <prettyLink id="1094" key="3926c9f5-d466-4ecc-8591-ebbdc825ff8e" parentID="1084" level="3" creatorID="-1" sortOrder="0" createDate="2021-11-12T21:28:28" updateDate="2021-11-12T22:06:33" nodeName="This package on Our" urlName="this-package-on-our" path="-1,1080,1084,1094" isDoc="" nodeType="1062" nodeTypeAlias="prettyLink" creatorName="Admin User" writerName="Admin User" writerID="-1" template="1104" isPublished="true">
+            <linkTarget><![CDATA[[{"name":"This package on Our","target":"_blank","url":"https://our.umbraco.com/packages/starter-kits/codeshare-starter-kit/"}]]]></linkTarget>
+            <umbracoNaviHide>0</umbracoNaviHide>
+            <disableDropdown>0</disableDropdown>
+            <textOnlyInNavigation>0</textOnlyInNavigation>
+          </prettyLink>
+          <prettyLink id="1093" key="1da0ce4f-2ddb-40b8-99c7-4e4f8a5c8f9b" parentID="1084" level="3" creatorID="-1" sortOrder="1" createDate="2021-11-12T21:28:28" updateDate="2021-11-12T22:06:33" nodeName="This package on GitHub" urlName="this-package-on-github" path="-1,1080,1084,1093" isDoc="" nodeType="1062" nodeTypeAlias="prettyLink" creatorName="Admin User" writerName="Admin User" writerID="-1" template="1104" isPublished="true">
+            <linkTarget><![CDATA[[{"name":"This package on GitHub","target":"_blank","url":"https://github.com/prjseal/CodeShare-Umbraco-Starter-Kit-for-v8"}]]]></linkTarget>
+            <umbracoNaviHide>0</umbracoNaviHide>
+            <disableDropdown>0</disableDropdown>
+            <textOnlyInNavigation>0</textOnlyInNavigation>
+          </prettyLink>
+          <prettyLink id="1088" key="600de956-d568-4a07-b33d-966570d741a6" parentID="1084" level="3" creatorID="-1" sortOrder="2" createDate="2021-11-12T21:28:28" updateDate="2021-11-12T22:06:32" nodeName="codeshare.co.uk" urlName="codesharecouk" path="-1,1080,1084,1088" isDoc="" nodeType="1062" nodeTypeAlias="prettyLink" creatorName="Admin User" writerName="Admin User" writerID="-1" template="1104" isPublished="true">
+            <linkTarget><![CDATA[[{"name":"codeshare.co.uk","target":"_blank","url":"https://codeshare.co.uk"}]]]></linkTarget>
+            <umbracoNaviHide>0</umbracoNaviHide>
+            <disableDropdown>0</disableDropdown>
+            <textOnlyInNavigation>0</textOnlyInNavigation>
+          </prettyLink>
+          <prettyLink id="1097" key="d198d817-9fbe-44b0-848c-354aa690588c" parentID="1084" level="3" creatorID="-1" sortOrder="3" createDate="2021-11-12T21:28:28" updateDate="2021-11-12T22:06:33" nodeName="YouTube Videos" urlName="youtube-videos" path="-1,1080,1084,1097" isDoc="" nodeType="1062" nodeTypeAlias="prettyLink" creatorName="Admin User" writerName="Admin User" writerID="-1" template="1104" isPublished="true">
+            <linkTarget><![CDATA[[{"name":"YouTube Videos","target":"_blank","url":"https://www.youtube.com/user/pcHelpFromPaul"}]]]></linkTarget>
+            <umbracoNaviHide>0</umbracoNaviHide>
+            <disableDropdown>0</disableDropdown>
+            <textOnlyInNavigation>0</textOnlyInNavigation>
+          </prettyLink>
+          <prettyLink id="1091" key="eef6e12a-35ac-4057-9456-e22b87c42ce5" parentID="1084" level="3" creatorID="-1" sortOrder="4" createDate="2021-11-12T21:28:28" updateDate="2021-11-12T22:06:32" nodeName="Pixelarity" urlName="pixelarity" path="-1,1080,1084,1091" isDoc="" nodeType="1062" nodeTypeAlias="prettyLink" creatorName="Admin User" writerName="Admin User" writerID="-1" template="1104" isPublished="true">
+            <linkTarget><![CDATA[[{"name":"Pixelarity","target":"_blank","url":"https://codeshare.co.uk/pixelarity/"}]]]></linkTarget>
+            <umbracoNaviHide>0</umbracoNaviHide>
+            <disableDropdown>0</disableDropdown>
+            <textOnlyInNavigation>0</textOnlyInNavigation>
+          </prettyLink>
+          <prettyLink id="1086" key="c3479f98-beb6-4634-9a8f-eb792602e75f" parentID="1084" level="3" creatorID="-1" sortOrder="5" createDate="2021-11-12T21:28:28" updateDate="2021-11-12T22:06:32" nodeName="24 days in Umbraco" urlName="24-days-in-umbraco" path="-1,1080,1084,1086" isDoc="" nodeType="1062" nodeTypeAlias="prettyLink" creatorName="Admin User" writerName="Admin User" writerID="-1" template="1104" isPublished="true">
+            <linkTarget><![CDATA[[{"name":"24 days in Umbraco","target":"_blank","url":"https://24days.in/umbraco-cms/2018/"}]]]></linkTarget>
+            <umbracoNaviHide>0</umbracoNaviHide>
+            <disableDropdown>0</disableDropdown>
+            <textOnlyInNavigation>0</textOnlyInNavigation>
+          </prettyLink>
+          <prettyLink id="1092" key="ad8f8ac3-4a2f-43b4-a432-c1202a35ed48" parentID="1084" level="3" creatorID="-1" sortOrder="6" createDate="2021-11-12T21:28:28" updateDate="2021-11-12T22:06:32" nodeName="Skrift" urlName="skrift" path="-1,1080,1084,1092" isDoc="" nodeType="1062" nodeTypeAlias="prettyLink" creatorName="Admin User" writerName="Admin User" writerID="-1" template="1104" isPublished="true">
+            <linkTarget><![CDATA[[{"name":"Skrift Magazine","target":"_blank","url":"https://skrift.io/"}]]]></linkTarget>
+            <umbracoNaviHide>0</umbracoNaviHide>
+            <disableDropdown>0</disableDropdown>
+            <textOnlyInNavigation>0</textOnlyInNavigation>
+          </prettyLink>
+          <prettyLink id="1096" key="3fb356db-a019-4d42-8545-06bea1f04174" parentID="1084" level="3" creatorID="-1" sortOrder="7" createDate="2021-11-12T21:28:29" updateDate="2021-11-12T22:06:33" nodeName="umbraCoffee" urlName="umbracoffee" path="-1,1080,1084,1096" isDoc="" nodeType="1062" nodeTypeAlias="prettyLink" creatorName="Admin User" writerName="Admin User" writerID="-1" template="1104" isPublished="true">
+            <linkTarget><![CDATA[[{"name":"umbraCoffee","target":"_blank","url":"https://www.youtube.com/channel/UCF_Ene5-58a3Z55aw8O6Djg/"}]]]></linkTarget>
+            <umbracoNaviHide>0</umbracoNaviHide>
+            <disableDropdown>0</disableDropdown>
+            <textOnlyInNavigation>0</textOnlyInNavigation>
+          </prettyLink>
+          <prettyLink id="1087" key="c4825c79-6741-4a68-8008-b0afe4975d99" parentID="1084" level="3" creatorID="-1" sortOrder="8" createDate="2021-11-12T21:28:29" updateDate="2021-11-12T22:06:32" nodeName="Buy me a coffee" urlName="buy-me-a-coffee" path="-1,1080,1084,1087" isDoc="" nodeType="1062" nodeTypeAlias="prettyLink" creatorName="Admin User" writerName="Admin User" writerID="-1" template="1104" isPublished="true">
+            <linkTarget><![CDATA[[{"name":"Buy me a coffee","target":"_blank","url":"https://codeshare.co.uk/coffee"}]]]></linkTarget>
+            <umbracoNaviHide>0</umbracoNaviHide>
+            <disableDropdown>0</disableDropdown>
+            <textOnlyInNavigation>0</textOnlyInNavigation>
+          </prettyLink>
+        </prettyLink>
+      </home>
+    </DocumentSet>
+  </Documents>
+  <DocumentTypes>
+    <DocumentType>
+      <Info>
+        <Name>Article</Name>
+        <Alias>article</Alias>
+        <Key>b2427425-a35c-440e-af0a-bcadc1d02c25</Key>
+        <Icon>icon-newspaper-alt color-red</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <IsElement>False</IsElement>
+        <Variations>Nothing</Variations>
+        <Compositions>
+          <Composition>articleControls</Composition>
+          <Composition>contentControls</Composition>
+          <Composition>metaDataControls</Composition>
+          <Composition>navigationControls</Composition>
+          <Composition>umbracoUrlAliasControls</Composition>
+        </Compositions>
+        <AllowedTemplates>
+          <Template>Article</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>Article</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType Folders="Compositions" FolderKeys="7d472d21-aa14-457c-a098-c8e8ba3dfdd8">
+      <Info>
+        <Name>Article Controls</Name>
+        <Alias>articleControls</Alias>
+        <Key>63ee7a97-89fe-4cd6-89e6-791b32f7ba1c</Key>
+        <Icon>icon-document</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <IsElement>False</IsElement>
+        <Variations>Nothing</Variations>
+        <Compositions />
+        <AllowedTemplates />
+        <DefaultTemplate></DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Article Date</Name>
+          <Alias>articleDate</Alias>
+          <Key>fc76499a-d16e-4d66-99e7-8f6d6983f94d</Key>
+          <Type>Umbraco.DateTime</Type>
+          <Definition>5046194e-4237-453c-a547-15db3a07c4e1</Definition>
+          <Tab Alias="content">Content</Tab>
+          <SortOrder>3</SortOrder>
+          <Mandatory>True</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Choose a date for this article]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Author Name</Name>
+          <Alias>authorName</Alias>
+          <Key>e75e3423-2721-4481-a0d7-7c3c25599a37</Key>
+          <Type>Umbraco.TextBox</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab Alias="content">Content</Tab>
+          <SortOrder>4</SortOrder>
+          <Mandatory>True</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Enter a name for the author]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>56</Id>
+          <Key>d79cab3c-2d71-4655-b1d5-b8354b93cc3d</Key>
+          <Type>Group</Type>
+          <Caption>Content</Caption>
+          <Alias>content</Alias>
+          <SortOrder>1</SortOrder>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Article List</Name>
+        <Alias>articleList</Alias>
+        <Key>60396529-ca22-446a-afcd-0dd6e6263290</Key>
+        <Icon>icon-thumbnail-list color-red</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>True</IsListView>
+        <IsElement>False</IsElement>
+        <Variations>Nothing</Variations>
+        <Compositions>
+          <Composition>umbracoUrlAliasControls</Composition>
+          <Composition>navigationControls</Composition>
+          <Composition>metaDataControls</Composition>
+          <Composition>latestArticlesControls</Composition>
+        </Compositions>
+        <AllowedTemplates>
+          <Template>ArticleList</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>ArticleList</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>article</DocumentType>
+      </Structure>
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType Folders="Compositions" FolderKeys="7d472d21-aa14-457c-a098-c8e8ba3dfdd8">
+      <Info>
+        <Name>Carousel Controls</Name>
+        <Alias>carouselControls</Alias>
+        <Key>a2204bf5-c2d4-49fa-ba29-f39abcbcedd8</Key>
+        <Icon>icon-document</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <IsElement>False</IsElement>
+        <Variations>Nothing</Variations>
+        <Compositions />
+        <AllowedTemplates />
+        <DefaultTemplate></DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Main Carousel</Name>
+          <Alias>mainCarousel</Alias>
+          <Key>f71bac50-29c3-4ff1-bcdb-75616f235cd0</Key>
+          <Type>Umbraco.NestedContent</Type>
+          <Definition>450f3d88-3185-498d-8ee3-6e8a0ec09d50</Definition>
+          <Tab Alias="header">Header</Tab>
+          <SortOrder>0</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Add the items for the carousel]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>57</Id>
+          <Key>733d5475-5d6c-49d0-826b-8b2de52df1c0</Key>
+          <Type>Group</Type>
+          <Caption>Header</Caption>
+          <Alias>header</Alias>
+          <SortOrder>-1</SortOrder>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType Folders="Elements" FolderKeys="8848cf58-3bf8-4d35-bcb7-0772c7da71d1">
+      <Info>
+        <Name>Carousel Slide</Name>
+        <Alias>carouselSlide</Alias>
+        <Key>bd27f9c5-684f-4d2b-aeec-79d672f84262</Key>
+        <Icon>icon-picture color-red</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <IsElement>True</IsElement>
+        <Variations>Nothing</Variations>
+        <Compositions />
+        <AllowedTemplates />
+        <DefaultTemplate></DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Slide Title</Name>
+          <Alias>slideTitle</Alias>
+          <Key>358db8c3-30bc-4e03-beaf-ab3676ac68d6</Key>
+          <Type>Umbraco.TextBox</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab Alias="content">Content</Tab>
+          <SortOrder>1</SortOrder>
+          <Mandatory>True</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Enter the title for this slide]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Slide Subtitle</Name>
+          <Alias>slideSubtitle</Alias>
+          <Key>bdcf19d9-e1a7-4a85-bccd-4abc20c8940d</Key>
+          <Type>Umbraco.TextArea</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab Alias="content">Content</Tab>
+          <SortOrder>2</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Enter the subtitle for this slide]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Slide Image</Name>
+          <Alias>slideImage</Alias>
+          <Key>573113e5-5b07-442f-8bf0-047566d1d107</Key>
+          <Type>Umbraco.MediaPicker</Type>
+          <Definition>135d60e0-64d9-49ed-ab08-893c9ba44ae5</Definition>
+          <Tab Alias="content">Content</Tab>
+          <SortOrder>3</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Add an image for this slide]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Slide Link</Name>
+          <Alias>slideLink</Alias>
+          <Key>49f4c5e3-6ae1-4968-aa46-43ef8e1c4a79</Key>
+          <Type>Umbraco.MultiUrlPicker</Type>
+          <Definition>b4e3535a-1753-47e2-8568-602cf8cfee6f</Definition>
+          <Tab Alias="content">Content</Tab>
+          <SortOrder>4</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Add a link for this slide to link to]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>58</Id>
+          <Key>1e9c8c9c-ddbb-46f2-a9e9-040b45711c0e</Key>
+          <Type>Group</Type>
+          <Caption>Content</Caption>
+          <Alias>content</Alias>
+          <SortOrder>0</SortOrder>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Contact</Name>
+        <Alias>contact</Alias>
+        <Key>543375f1-afd7-4ef9-9bf0-dcd8ac597f6c</Key>
+        <Icon>icon-message color-red</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <IsElement>False</IsElement>
+        <Variations>Nothing</Variations>
+        <Compositions>
+          <Composition>metaDataControls</Composition>
+          <Composition>navigationControls</Composition>
+          <Composition>umbracoUrlAliasControls</Composition>
+        </Compositions>
+        <AllowedTemplates>
+          <Template>Contact</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>Contact</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Content</Name>
+        <Alias>content</Alias>
+        <Key>70d56dea-d29c-47c4-bfeb-04abc5451b27</Key>
+        <Icon>icon-document color-red</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <IsElement>False</IsElement>
+        <Variations>Nothing</Variations>
+        <Compositions>
+          <Composition>metaDataControls</Composition>
+          <Composition>contentControls</Composition>
+          <Composition>navigationControls</Composition>
+          <Composition>umbracoUrlAliasControls</Composition>
+        </Compositions>
+        <AllowedTemplates>
+          <Template>Content</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>Content</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType Folders="Compositions" FolderKeys="7d472d21-aa14-457c-a098-c8e8ba3dfdd8">
+      <Info>
+        <Name>Content Controls</Name>
+        <Alias>contentControls</Alias>
+        <Key>d4b72172-7d31-4a00-9c25-933f711bfccb</Key>
+        <Icon>icon-document</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <IsElement>False</IsElement>
+        <Variations>Nothing</Variations>
+        <Compositions />
+        <AllowedTemplates />
+        <DefaultTemplate></DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Title</Name>
+          <Alias>title</Alias>
+          <Key>7b06fad7-c4cf-44dc-a656-23d46102002e</Key>
+          <Type>Umbraco.TextBox</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab Alias="content">Content</Tab>
+          <SortOrder>0</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Enter the title for this page. If you leave this blank, we will use the page name.]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Main Image</Name>
+          <Alias>mainImage</Alias>
+          <Key>d8fcc057-8cc9-4ded-94f6-0929d062bef0</Key>
+          <Type>Umbraco.MediaPicker</Type>
+          <Definition>135d60e0-64d9-49ed-ab08-893c9ba44ae5</Definition>
+          <Tab Alias="content">Content</Tab>
+          <SortOrder>1</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Choose an image to show as the main image on this page]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Content Grid</Name>
+          <Alias>contentGrid</Alias>
+          <Key>af5b255c-5f93-4005-bb78-44c9ab04e25e</Key>
+          <Type>Umbraco.Grid</Type>
+          <Definition>a505f6dd-2a05-4404-95fd-16a7891aefd7</Definition>
+          <Tab Alias="content">Content</Tab>
+          <SortOrder>2</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Enter the content for the grid]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>59</Id>
+          <Key>f9a4cb56-158b-4358-b848-4bd535ecaf2c</Key>
+          <Type>Group</Type>
+          <Caption>Content</Caption>
+          <Alias>content</Alias>
+          <SortOrder>0</SortOrder>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType Folders="Compositions" FolderKeys="7d472d21-aa14-457c-a098-c8e8ba3dfdd8">
+      <Info>
+        <Name>Footer Content Controls</Name>
+        <Alias>footerContentControls</Alias>
+        <Key>899424a2-f952-4c5b-89ce-d8299ed46448</Key>
+        <Icon>icon-document</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <IsElement>False</IsElement>
+        <Variations>Nothing</Variations>
+        <Compositions />
+        <AllowedTemplates />
+        <DefaultTemplate></DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Footer Title</Name>
+          <Alias>footerTitle</Alias>
+          <Key>ad2c6d15-afa4-49e1-8865-d293fdf3e14c</Key>
+          <Type>Umbraco.TextBox</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab Alias="footer">Footer</Tab>
+          <SortOrder>0</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Enter a title for the footer content]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Footer Links</Name>
+          <Alias>footerLinks</Alias>
+          <Key>9946aad3-ba3e-437b-9728-e8e29d52e3fd</Key>
+          <Type>Umbraco.MultiUrlPicker</Type>
+          <Definition>b4e3535a-1753-47e2-8568-602cf8cfee6f</Definition>
+          <Tab Alias="footer">Footer</Tab>
+          <SortOrder>1</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Enter the footer links]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Footer Social Links</Name>
+          <Alias>footerSocialLinks</Alias>
+          <Key>045697f9-7f97-4a08-990f-0b835d98356b</Key>
+          <Type>Umbraco.MultiUrlPicker</Type>
+          <Definition>b4e3535a-1753-47e2-8568-602cf8cfee6f</Definition>
+          <Tab Alias="footer">Footer</Tab>
+          <SortOrder>2</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Enter the social links to show in the footer]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>60</Id>
+          <Key>85413436-9ae3-4b87-9d81-1dc31ec48d48</Key>
+          <Type>Group</Type>
+          <Caption>Footer</Caption>
+          <Alias>footer</Alias>
+          <SortOrder>5</SortOrder>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Home</Name>
+        <Alias>home</Alias>
+        <Key>6e6c1b45-cb4f-4ba8-9c27-3f157a5a9485</Key>
+        <Icon>icon-home color-red</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>True</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <IsElement>False</IsElement>
+        <Variations>Nothing</Variations>
+        <Compositions>
+          <Composition>umbracoUrlAliasControls</Composition>
+          <Composition>navigationControls</Composition>
+          <Composition>footerContentControls</Composition>
+          <Composition>carouselControls</Composition>
+          <Composition>metaDataControls</Composition>
+          <Composition>latestArticlesControls</Composition>
+        </Compositions>
+        <AllowedTemplates>
+          <Template>Home</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>Home</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>articleList</DocumentType>
+        <DocumentType>content</DocumentType>
+        <DocumentType>prettyLink</DocumentType>
+        <DocumentType>search</DocumentType>
+        <DocumentType>contact</DocumentType>
+      </Structure>
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType Folders="Compositions" FolderKeys="7d472d21-aa14-457c-a098-c8e8ba3dfdd8">
+      <Info>
+        <Name>Latest Articles Controls</Name>
+        <Alias>latestArticlesControls</Alias>
+        <Key>7df8bc0c-2995-4877-a5f7-5fbe431e5a2b</Key>
+        <Icon>icon-document</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <IsElement>False</IsElement>
+        <Variations>Nothing</Variations>
+        <Compositions />
+        <AllowedTemplates />
+        <DefaultTemplate></DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Latest Articles Title</Name>
+          <Alias>latestArticlesTitle</Alias>
+          <Key>29b084d0-c0b8-43d8-8d07-1b6439642ef3</Key>
+          <Type>Umbraco.TextBox</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab Alias="content">Content</Tab>
+          <SortOrder>0</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Enter a title for the latest articles]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Latest Articles Subtitle</Name>
+          <Alias>latestArticlesSubtitle</Alias>
+          <Key>9f5b27aa-70ac-49b0-8b75-f4d7815b8b67</Key>
+          <Type>Umbraco.TextArea</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab Alias="content">Content</Tab>
+          <SortOrder>1</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Enter the subtitle for the latest articles]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>61</Id>
+          <Key>1656d6fe-aaa4-4a2b-895a-ae3e867e80fb</Key>
+          <Type>Group</Type>
+          <Caption>Content</Caption>
+          <Alias>content</Alias>
+          <SortOrder>4</SortOrder>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType Folders="Compositions" FolderKeys="7d472d21-aa14-457c-a098-c8e8ba3dfdd8">
+      <Info>
+        <Name>Meta Data Controls</Name>
+        <Alias>metaDataControls</Alias>
+        <Key>fa8a2aa8-be71-4ee8-a384-51599d554171</Key>
+        <Icon>icon-document</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <IsElement>False</IsElement>
+        <Variations>Nothing</Variations>
+        <Compositions />
+        <AllowedTemplates />
+        <DefaultTemplate></DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Meta Name</Name>
+          <Alias>metaName</Alias>
+          <Key>924fcbd7-d863-4dc6-b854-fa5e7d015c6e</Key>
+          <Type>Umbraco.TextBox</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab Alias="metaData">Meta Data</Tab>
+          <SortOrder>0</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Enter the meta name. If left blank it will use the page name.]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Meta Description</Name>
+          <Alias>metaDescription</Alias>
+          <Key>d1460a9f-e49d-458a-b562-48c72fb4611c</Key>
+          <Type>Umbraco.TextArea</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab Alias="metaData">Meta Data</Tab>
+          <SortOrder>1</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Enter the meta description. This is what shows up in Google etc. If left blank, will use the page name.]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Meta Keywords</Name>
+          <Alias>metaKeywords</Alias>
+          <Key>ff465fc9-b966-4e05-9277-bf27952f7f59</Key>
+          <Type>Umbraco.Tags</Type>
+          <Definition>b6b73142-b9c1-4bf8-a16d-e1c23320b549</Definition>
+          <Tab Alias="metaData">Meta Data</Tab>
+          <SortOrder>2</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Enter the meta keywords. This is used for Search Engine]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>62</Id>
+          <Key>dcb5e4ff-ded6-433e-97c8-b19669d712ee</Key>
+          <Type>Group</Type>
+          <Caption>Meta Data</Caption>
+          <Alias>metaData</Alias>
+          <SortOrder>7</SortOrder>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType Folders="Compositions" FolderKeys="7d472d21-aa14-457c-a098-c8e8ba3dfdd8">
+      <Info>
+        <Name>Navigation Controls</Name>
+        <Alias>navigationControls</Alias>
+        <Key>75873a8b-a267-4ed9-bd29-5b2da9836ff2</Key>
+        <Icon>icon-document</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <IsElement>False</IsElement>
+        <Variations>Nothing</Variations>
+        <Compositions />
+        <AllowedTemplates />
+        <DefaultTemplate></DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Umbraco Navi Hide</Name>
+          <Alias>umbracoNaviHide</Alias>
+          <Key>d4d93806-c80c-4dd9-948d-b2c5b5f93096</Key>
+          <Type>Umbraco.TrueFalse</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab Alias="navigation">Navigation</Tab>
+          <SortOrder>0</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Tick this box if you want to hide it from the site.]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Disable Dropdown</Name>
+          <Alias>disableDropdown</Alias>
+          <Key>9ca84c10-4db3-42fb-a16d-9cafd0a4792b</Key>
+          <Type>Umbraco.TrueFalse</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab Alias="navigation">Navigation</Tab>
+          <SortOrder>1</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Tick this box if you want to disable the dropdown for this item]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Text Only In Navigation</Name>
+          <Alias>textOnlyInNavigation</Alias>
+          <Key>d984c697-91d8-4734-ad74-630e026444d6</Key>
+          <Type>Umbraco.TrueFalse</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab Alias="navigation">Navigation</Tab>
+          <SortOrder>2</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Tick this box if you want this item to be just text only in the navigation menu.]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>63</Id>
+          <Key>c243915c-ea31-4a9c-b7fe-a739bcf1ca06</Key>
+          <Type>Group</Type>
+          <Caption>Navigation</Caption>
+          <Alias>navigation</Alias>
+          <SortOrder>8</SortOrder>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Pretty Link</Name>
+        <Alias>prettyLink</Alias>
+        <Key>ebe8993e-0c68-4ba1-a5b9-c83a623c4f07</Key>
+        <Icon>icon-link color-red</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <IsElement>False</IsElement>
+        <Variations>Nothing</Variations>
+        <Compositions>
+          <Composition>prettyLinkControls</Composition>
+          <Composition>navigationControls</Composition>
+          <Composition>umbracoUrlAliasControls</Composition>
+        </Compositions>
+        <AllowedTemplates>
+          <Template>PrettyLink</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>PrettyLink</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>prettyLink</DocumentType>
+      </Structure>
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType Folders="Compositions" FolderKeys="7d472d21-aa14-457c-a098-c8e8ba3dfdd8">
+      <Info>
+        <Name>Pretty Link Controls</Name>
+        <Alias>prettyLinkControls</Alias>
+        <Key>05c4c184-d8d8-45e0-960f-7fd79f885177</Key>
+        <Icon>icon-document</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <IsElement>False</IsElement>
+        <Variations>Nothing</Variations>
+        <Compositions />
+        <AllowedTemplates />
+        <DefaultTemplate></DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Link Target</Name>
+          <Alias>linkTarget</Alias>
+          <Key>1bb0ec1e-3bd7-40c9-8a00-7e765499df4a</Key>
+          <Type>Umbraco.MultiUrlPicker</Type>
+          <Definition>b4e3535a-1753-47e2-8568-602cf8cfee6f</Definition>
+          <Tab Alias="content">Content</Tab>
+          <SortOrder>0</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Enter the link for this pretty link to point to]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>64</Id>
+          <Key>d311dd99-a8f2-414e-85da-565f410fb351</Key>
+          <Type>Group</Type>
+          <Caption>Content</Caption>
+          <Alias>content</Alias>
+          <SortOrder>0</SortOrder>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Search</Name>
+        <Alias>search</Alias>
+        <Key>81e8804e-d678-44ba-b94a-85cdb4088d1c</Key>
+        <Icon>icon-search color-red</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <IsElement>False</IsElement>
+        <Variations>Nothing</Variations>
+        <Compositions>
+          <Composition>umbracoUrlAliasControls</Composition>
+          <Composition>navigationControls</Composition>
+          <Composition>metaDataControls</Composition>
+        </Compositions>
+        <AllowedTemplates>
+          <Template>Search</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>Search</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType Folders="Compositions" FolderKeys="7d472d21-aa14-457c-a098-c8e8ba3dfdd8">
+      <Info>
+        <Name>Umbraco Url Alias Controls</Name>
+        <Alias>umbracoUrlAliasControls</Alias>
+        <Key>f2240a40-365e-455f-b4a8-07eab54f7aa6</Key>
+        <Icon>icon-document</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <IsElement>False</IsElement>
+        <Variations>Nothing</Variations>
+        <Compositions />
+        <AllowedTemplates />
+        <DefaultTemplate></DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Umbraco Url Alias</Name>
+          <Alias>umbracoUrlAlias</Alias>
+          <Key>01e97aac-0b16-4a17-81fb-aef51f039c59</Key>
+          <Type>Umbraco.TextBox</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab Alias="genericProperties">Generic Properties</Tab>
+          <SortOrder>0</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <MandatoryMessage></MandatoryMessage>
+          <Validation></Validation>
+          <ValidationRegExpMessage></ValidationRegExpMessage>
+          <Description><![CDATA[Enter an alternate url in here. Please note that the values you use must be lowercase, not use a leading slash and not use a trailing ".aspx" or trailing slash. If you are adding multiple values, they must be separated with a comma.]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>65</Id>
+          <Key>fa92d735-5d5d-4ef0-8d5f-67e9fb5119f5</Key>
+          <Type>Group</Type>
+          <Caption>Generic Properties</Caption>
+          <Alias>genericProperties</Alias>
+          <SortOrder>9</SortOrder>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+  </DocumentTypes>
+  <MediaTypes />
+  <Templates>
+    <Template>
+      <Name>Article</Name>
+      <Key>37f59deb-02c5-490e-a247-e8e0913e585c</Key>
+      <Alias>Article</Alias>
+      <Design><![CDATA[@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+
+@{
+    Layout = "Master.cshtml";
+    SmidgeHelper.RequiresCss("/css/Article-Clean.css");
+}
+
+@await Html.PartialAsync("Content/_ArticleContent")]]></Design>
+    </Template>
+    <Template>
+      <Name>Article List</Name>
+      <Key>e4e0b443-4bb4-4482-962e-ec94cac5e10a</Key>
+      <Alias>ArticleList</Alias>
+      <Design><![CDATA[@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+
+@{
+    Layout = "Master.cshtml";
+    SmidgeHelper.RequiresCss("/csusk-assets/css/Article-List.css");
+}
+
+@await Html.PartialAsync("Content/_LatestArticles")]]></Design>
+    </Template>
+    <Template>
+      <Name>Contact</Name>
+      <Key>ef70b5f8-adb2-4253-9e16-483920995f2c</Key>
+      <Alias>Contact</Alias>
+      <Design><![CDATA[@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.Contact>
+
+@using CodeShare.Core.Controllers.Surface
+@using CodeShare.Core.Models.ViewModels
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels
+
+@{  
+    Layout = "master.cshtml";
+    var submitted = false;
+    if (bool.TryParse(TempData["Success"]?.ToString() ?? "", out var success))
+    {
+        submitted = true;
+    }
+}
+
+<article id="article-content">
+    @if (submitted)
+    {
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    @if (success)
+                    {
+                        <p>Thanks for contacting us. We will be in touch soon.</p>
+                    }
+                    else
+                    {
+                        <p>There was an error when trying to submit the form. Please try again later.</p>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</article>
+
+@if (!submitted)
+{
+    <div class="contact-clean">
+        <div id="form-outer">
+                @await Component.InvokeAsync("Contact")
+        </div>
+        <div id="form-result"></div>
+    </div>
+}]]></Design>
+    </Template>
+    <Template>
+      <Name>Content</Name>
+      <Key>33d712c4-5cfa-4242-adb3-5e512f90327b</Key>
+      <Alias>Content</Alias>
+      <Design><![CDATA[@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+
+@{
+    Layout = "Master.cshtml";
+    SmidgeHelper.RequiresCss("/css/Article-Clean.css");
+}
+
+@await Html.PartialAsync("Content/_ArticleContent")]]></Design>
+    </Template>
+    <Template>
+      <Name>Home</Name>
+      <Key>95a30f3d-1d66-4176-8552-a7f395314b59</Key>
+      <Alias>Home</Alias>
+      <Design><![CDATA[@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+
+@{
+    Layout = "Master.cshtml";
+}
+
+@await Html.PartialAsync("Content/_MainCarousel")
+
+@await Html.PartialAsync("Content/_LatestArticles")]]></Design>
+    </Template>
+    <Template>
+      <Name>Master</Name>
+      <Key>13f2dfca-4047-43a0-abc1-b64ae99a433d</Key>
+      <Alias>master</Alias>
+      <Design><![CDATA[@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    @await Html.PartialAsync("Partials/SiteLayout/_MetaData")
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+    @{
+        //styles
+        SmidgeHelper.RequiresCss("/csusk-assets/css/styles.min.css");
+        SmidgeHelper.RequiresCss("/csusk-assets/css/Article-Clean.css");
+        SmidgeHelper.RequiresCss("/csusk-assets/css/Article-List.css");
+        SmidgeHelper.RequiresCss("/csusk-assets/css/Carousel-Hero.css");
+        SmidgeHelper.RequiresCss("/csusk-assets/css/Contact-Form-Clean.css");
+        SmidgeHelper.RequiresCss("/csusk-assets/css/Footer-Basic.css");
+        SmidgeHelper.RequiresCss("/csusk-assets/css/News-Cards.css");
+        SmidgeHelper.RequiresCss("/csusk-assets/css/Navigation-Clean1.css");
+
+        //scripts
+        SmidgeHelper.RequiresJs("https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js");
+    }
+
+    @await SmidgeHelper.CssHereAsync(debug: true)
+
+</head>
+<body>
+    @await Html.PartialAsync("Partials/SiteLayout/_MainNavigation")
+
+    @RenderBody()
+
+    @await Html.PartialAsync("Partials/SiteLayout/_Footer")
+
+    @await SmidgeHelper.JsHereAsync(debug: true)
+</body>
+</html>]]></Design>
+    </Template>
+    <Template>
+      <Name>Pretty Link</Name>
+      <Key>c886353c-f2fa-45a7-8584-882f11e0bbfe</Key>
+      <Alias>PrettyLink</Alias>
+      <Design><![CDATA[@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+
+@using Umbraco.Cms.Core.Models
+
+@{
+    Layout = null;
+
+    var links = Model.Value<IEnumerable<Link>>("linkTarget");
+    if (links != null && links.Any())
+    {
+        var prettyLink = links.FirstOrDefault();
+        Context.Response.Redirect(prettyLink.Url, true);
+    }
+}]]></Design>
+    </Template>
+    <Template>
+      <Name>Search</Name>
+      <Key>f4c1a214-d88d-43ff-8c8a-87d4f988ada9</Key>
+      <Alias>Search</Alias>
+      <Design><![CDATA[@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+
+@inject Umbraco.Cms.Core.IPublishedContentQuery publishedContentQuery
+
+@{
+    Layout = "Master.cshtml";
+    SmidgeHelper.RequiresCss("/css/Contact-Form-Clean.css");
+    var searchQuery = Context.Request.Query["q"];
+}
+
+<div class="contact-clean">
+    <form action="@Model.Url()" method="GET" id="search">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8">
+                    <input type="text" class="form-control col-xs-6" placeholder="Search..." name="q" value="@searchQuery" />
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <button class="btn btn-primary">Search</button>
+                </div>
+                <div class="col-xs-12">
+                    @if (!string.IsNullOrWhiteSpace(searchQuery))
+                    {
+                        var results = publishedContentQuery.Search(searchQuery);
+                        long resultCount = results != null && results.Any() ? results.Count() : 0;
+                        <div class="searchresults">
+                            <p>We found <strong>@resultCount</strong> result@(resultCount != 1 ? "s" : "") when searching for <strong>@searchQuery</strong></p>
+                            @if (resultCount > 0)
+                            {
+                                <ul>
+                                    @foreach (var result in results)
+                                    {
+                                        <li>
+                                            <h3><a href="@result.Content.Url()">@result.Content.Name</a></h3>
+                                            <p>@(result.Content.Value<string>("metaDescription"))</p>
+                                        </li>
+                                    }
+                                </ul>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </form>
+</div>]]></Design>
+    </Template>
+  </Templates>
+  <Stylesheets />
+  <Scripts />
+  <PartialViews>
+    <View path="grid\CSUSKGrid.cshtml"><![CDATA[@using System.Web
+@using Microsoft.AspNetCore.Html
+@using Newtonsoft.Json.Linq
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<dynamic>
+
+@if (Model != null && Model.GetType() == typeof(JObject) && Model.sections != null)
+{
+    var oneColumn = ((System.Collections.ICollection)Model.sections).Count == 1;
+
+    <div class="umb-grid">
+        @if (oneColumn)
+        {
+            foreach (var section in Model.sections)
+            {
+                <div class="grid-section">
+                    @foreach (var row in section.rows)
+                    {
+                        renderRow(row, true);
+                    }
+                </div>
+            }
+        }
+        else
+        {
+            <div class="container">
+                <div class="row clearfix">
+                    @foreach (var sec in Model.sections)
+                    {
+                        <div class="grid-section">
+                            <div class="col-md-@sec.grid column">
+                                @foreach (var row in sec.rows)
+                                {
+                                    renderRow(row, false);
+                                }
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+}
+
+@functions{
+
+    private async Task renderRow(dynamic row, bool singleColumn)
+    {
+        <div @RenderElementAttributes(row)>
+            @if (singleColumn)
+            {
+                @:<div class="container">
+                }
+            <div class="row clearfix">
+                @foreach (var area in row.areas)
+                {
+                    <div class="col-md-@area.grid column">
+                        <div @RenderElementAttributes(area)>
+                            @foreach (var control in area.controls)
+                            {
+                                if (control != null && control.editor != null && control.editor.view != null)
+                                {
+                                    <text>@await Html.PartialAsync("grid/editors/base", (object)control)</text>
+                                }
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+            @if (singleColumn)
+            {
+            @:</div>
+        }
+        </div>
+    }
+
+}
+
+@functions{
+
+    public static HtmlString RenderElementAttributes(dynamic contentItem)
+    {
+        var attrs = new List<string>();
+        JObject cfg = contentItem.config;
+
+        if (cfg != null)
+        {
+            foreach (JProperty property in cfg.Properties())
+            {
+                var propertyValue = HttpUtility.HtmlAttributeEncode(property.Value.ToString());
+                attrs.Add(property.Name + "=\"" + propertyValue + "\"");
+            }
+        }
+
+        JObject style = contentItem.styles;
+
+        if (style != null)
+        {
+            var cssVals = new List<string>();
+            foreach (JProperty property in style.Properties())
+            {
+                var propertyValue = property.Value.ToString();
+                if (string.IsNullOrWhiteSpace(propertyValue) == false)
+                {
+                    cssVals.Add(property.Name + ":" + propertyValue + ";");
+                }
+            }
+
+            if (cssVals.Any())
+                attrs.Add("style=\"" + HttpUtility.HtmlAttributeEncode(string.Join(" ", cssVals)) + "\"");
+        }
+
+        return new HtmlString(string.Join(" ", attrs));
+    }
+}
+]]></View>
+    <View path="SiteLayout\_Footer.cshtml"><![CDATA[@inherits UmbracoViewPage
+
+@using Umbraco.Cms.Core.Models
+
+@{ 
+    var homePage = Model.AncestorOrSelf<Home>();
+}
+
+<footer class="footer-basic">
+    @if (homePage.FooterSocialLinks != null && homePage.FooterSocialLinks.Count() > 0)
+    {
+        <div class="social">
+            @foreach (Link link in homePage.FooterSocialLinks)
+            {
+                <a href="@link.Url" target="@link.Target"><i class="icon fa fa-@link.Name"></i></a>
+            }
+        </div>
+    }
+    @if (homePage.FooterLinks != null && homePage.FooterLinks.Any())
+    {
+        <ul class="list-inline">
+            @foreach (Link link in homePage.FooterLinks)
+            {
+                <li class="list-inline-item"><a href="@link.Url" target="@link.Target">@link.Name</a></li>
+            }
+        </ul>
+    }
+    <p class="copyright">CodeShare Starter Kit by Paul Seal from <a href="https://codeshare.co.uk/" target="_blank">codeshare.co.uk</a> &copy; @DateTime.Now.Year | <a href="https://codeshare.co.uk/coffee">Buy me a coffee</a></p>
+</footer>]]></View>
+    <View path="SiteLayout\_MainNavigation.cshtml"><![CDATA[@inherits UmbracoViewPage
+
+@using Umbraco.Cms.Core.Models
+
+@{
+    IPublishedContent homePage = Model.Root();
+    IEnumerable<IPublishedContent> navigationPages = homePage.Children(x => x.IsVisible());
+}
+
+<nav class="navbar navbar-light navbar-expand-md navigation-clean">
+    <div class="container">
+        <a class="navbar-brand" href="/">CodeShare Starter Kit</a>
+        <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
+            <span class="visually-hidden">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            @if(navigationPages != null && navigationPages.Any())
+            {
+                <ul class="navbar-nav ms-auto">
+                    @foreach(var item in navigationPages)
+                    {
+                        if(!item.Value<bool>("disableDropdown") && item.Children != null && item.Children.Where(x => x.IsVisible()).Any())
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="@item.Url()">@item.Name </a>
+                                <div class="dropdown-menu">
+                                    @foreach(var child in item.Children)
+                                    {
+                                        <a class="dropdown-item" href="@child.Url()">@child.Name</a>
+                                    }
+                                </div>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="@item.Url()">@item.Name</a>
+                            </li>
+                        }
+                    }
+                </ul>
+            }
+        </div>
+    </div>
+</nav>]]></View>
+    <View path="SiteLayout\_MetaData.cshtml"><![CDATA[@inherits UmbracoViewPage
+
+<title>@(Model.HasValue("metaName") ? Model.Value<string>("metaName") : Model.Name)</title>
+<meta name="Name" content="@(Model.HasValue("metaName") ? Model.Value<string>("metaName") : Model.Name)" />
+<meta name="Description" content="@(Model.Value<string>("metaDescription"))" />
+<meta name="Keywords" content="@(Model.HasValue("metaKeywords") ? string.Join(",", Model.Value<string[]>("metaKeywords")) : Model.Name)" />]]></View>
+    <View path="Content\_ArticleContent.cshtml"><![CDATA[@inherits UmbracoViewPage
+
+@{ 
+    string mainImageUrl = Model.Value<IPublishedContent>("mainImage")?.GetCropUrl(1100, 464) ?? "";
+}
+
+<div class="article-clean">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 mx-auto col-md-12">
+                <div class="intro">
+                    <h1 class="text-center">@(Model.HasValue("title") ? Model.Value<string>("title") : Model.Name)</h1>
+                    @if(Model.HasValue("articleDate"))
+                    {
+                        <p class="text-center">
+                            <span class="date">@(Model.Value<DateTime>("articleDate").ToString("dddd, MMMM dd, yyyy"))</span>
+                        </p>
+                    }
+                    @if(!string.IsNullOrEmpty(mainImageUrl))
+                    {
+                        <img class="img-responsive" src="@(mainImageUrl)">
+                    }
+                </div>
+                <div class="text">
+                    @Html.GetGridHtml(Model, "contentGrid", "CSUSKGrid")
+                </div>
+            </div>
+        </div>
+    </div>
+</div>]]></View>
+    <View path="Content\_LatestArticles.cshtml"><![CDATA[@inherits UmbracoViewPage
+
+@using System.Collections.Generic;
+
+@{
+    IPublishedContent homePage = Model.Root();
+    IPublishedContent articleList = homePage.Children.Where(x => x.ContentType.Alias == "articleList" && x.IsVisible()).FirstOrDefault();
+    IEnumerable<IPublishedContent> articles = articleList.Children.Where(x => x.IsVisible() && x.ContentType.Alias == "article").OrderByDescending(x => x.Value<DateTime>("articleDate"));
+    int itemsToShow = Model.Id == homePage.Id ? 3 : 99;
+}
+
+<div class="article-list">
+    <div class="container">
+        <div class="intro">
+            <h2 class="text-center">@(Model.Value<string>("latestArticlesTitle"))</h2>
+            <p class="text-center">@(Model.Value<string>("latestArticlesSubtitle"))</p>
+        </div>
+        @if (articles.Any())
+        {
+            <div class="row articles">
+                @foreach (IPublishedContent item in articles.OrderByDescending(x => x.Value<DateTime>("articleDate")).Take(itemsToShow))
+                {
+                    string imageUrl = item.Value<IPublishedContent>("mainImage")?.GetCropUrl(720,455) ?? "/img/carousel.jpg";
+                    string title = item.HasValue("title") ? item.Value<string>("title") : item.Name;
+                    string description = item.Value<string>("metaDescription");
+
+                    <div class="col-sm-6 col-md-4 item">
+                        <a href="@item.Url()"><img class="img-fluid" src="@imageUrl"></a>
+                        <h3 class="name"><a href="@item.Url()">@title</a></h3>
+                        <p class="description">@description</p>
+                        <a href="@item.Url()" class="action"><i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>
+]]></View>
+    <View path="Content\_MainCarousel.cshtml"><![CDATA[@inherits UmbracoViewPage
+
+@using Umbraco.Cms.Core.Models
+
+@{
+    string carouselId = "mainCarousel";
+    var carousel = Model.Value<IEnumerable<IPublishedElement>>(carouselId);
+}
+
+@if (carousel != null && carousel.Any())
+{
+    var slideCount = carousel.Count();
+    <div class="carousel slide" data-bs-ride="carousel" id="@carouselId">
+        <div class="carousel-inner">
+            @{
+                int slideIndex = 0;
+                foreach (var slide in carousel)
+                {
+                    string title = slide.Value<string>("slideTitle");
+                    string subtitle = slide.HasValue("slideSubtitle") ? slide.Value<string>("slideSubtitle") : "";
+                    string imageUrl = slide.Value<IPublishedContent>("slideImage")?.GetCropUrl(1920, 1080) ?? "/img/carousel.jpg";
+                    IEnumerable<Link> links = slide.Value<IEnumerable<Link>>("slideLink");
+                    Link link = links != null ? links.FirstOrDefault() : null;
+
+                    <div class="carousel-item @(slideIndex == 0 ? "active" : "")">
+                        <div class="jumbotron carousel-hero" style="background-image:url('@(imageUrl)');">
+                            <h1 class="hero-title">@title</h1>
+                            <p class="hero-subtitle">@subtitle</p>
+                            <p><a class="btn btn-primary btn-lg hero-button" role="button" target="@link.Target" href="@link.Url">@link.Name</a></p>
+                        </div>
+                    </div>
+                    slideIndex++;
+                }
+            }
+        </div>
+        <div>
+            <a class="carousel-control-prev" href="#@carouselId" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a>
+            <a class="carousel-control-next" href="#@carouselId" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a>
+        </div>
+        <ol class="carousel-indicators">
+            @if (slideCount > 0)
+            {
+                for (var i = 0; i < slideCount; i++)
+                {
+                    <li data-bs-target="#@carouselId" data-bs-slide-to="@i" class="@(i == 0 ? "active" : "")"></li>
+                }
+            }
+        </ol>
+    </div>
+
+    @*<div class="carousel slide" data-bs-ride="carousel" id="@carouselId">
+        <div class="carousel-inner">
+            @{
+                int slideCount = 0;
+                foreach (var slide in carousel)
+                {
+                    string title = slide.Value<string>("slideTitle");
+                    string subtitle = slide.HasValue("slideSubtitle") ? slide.Value<string>("slideSubtitle") : "";
+                    string imageUrl = slide.Value<IPublishedContent>("slideImage")?.GetCropUrl(1920, 1080) ?? "/img/carousel.jpg";
+                    IEnumerable<Link> links = slide.Value<IEnumerable<Link>>("slideLink");
+                    Link link = links != null ? links.FirstOrDefault() : null;
+
+                    <div class="carousel-item @(slideCount == 0 ? "active" : "")">
+                        <div class="jumbotron carousel-hero" style="background-image:url('@(imageUrl)');">
+                            <h1 class="hero-title">@title</h1>
+                            <p class="hero-subtitle">@subtitle</p>
+                            <p><a class="btn btn-primary btn-lg hero-button" role="button" target="@link.Target" href="@link.Url">@link.Name</a></p>
+                        </div>
+                    </div>
+                    slideCount++;
+                }
+            }
+        </div>
+        <div>
+            <a class="carousel-control-prev" href="#@carouselId" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a>
+            <a class="carousel-control-next" href="#@carouselId" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a>
+        </div>
+        <ol class="carousel-indicators">
+            @for (int i = 0; i < slideCount; i++)
+            {
+                <li data-target="#@carouselId" data-bs-slide-to="@i" class="@(i == 0 ? "active" : null)"></li>
+            }
+        </ol>
+    </div>*@
+}
+]]></View>
+  </PartialViews>
+  <Macros />
+  <MacroPartialViews />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes>
+    <DataType Name="Content Grid" Id="Umbraco.Grid" Definition="a505f6dd-2a05-4404-95fd-16a7891aefd7" DatabaseType="Ntext" Configuration="{&quot;items&quot;:{&quot;styles&quot;:[{&quot;label&quot;:&quot;Set a background image&quot;,&quot;description&quot;:&quot;Set a row background&quot;,&quot;key&quot;:&quot;background-image&quot;,&quot;view&quot;:&quot;imagepicker&quot;,&quot;modifier&quot;:&quot;url({0})&quot;}],&quot;config&quot;:[{&quot;label&quot;:&quot;Class&quot;,&quot;description&quot;:&quot;Set a css class&quot;,&quot;key&quot;:&quot;class&quot;,&quot;view&quot;:&quot;textstring&quot;}],&quot;columns&quot;:12,&quot;templates&quot;:[{&quot;name&quot;:&quot;1 column layout&quot;,&quot;sections&quot;:[{&quot;grid&quot;:12}]}],&quot;layouts&quot;:[{&quot;name&quot;:&quot;Full width&quot;,&quot;areas&quot;:[{&quot;grid&quot;:12,&quot;allowAll&quot;:true}],&quot;label&quot;:&quot;Full width&quot;},{&quot;name&quot;:&quot;Half and half&quot;,&quot;areas&quot;:[{&quot;grid&quot;:6,&quot;allowAll&quot;:true},{&quot;grid&quot;:6,&quot;allowAll&quot;:true}],&quot;label&quot;:&quot;Half and half&quot;},{&quot;name&quot;:&quot;Thirds&quot;,&quot;areas&quot;:[{&quot;grid&quot;:4,&quot;allowAll&quot;:true},{&quot;grid&quot;:4,&quot;allowAll&quot;:true},{&quot;grid&quot;:4,&quot;allowAll&quot;:true}],&quot;label&quot;:&quot;Thirds&quot;}]},&quot;rte&quot;:{&quot;toolbar&quot;:[&quot;ace&quot;,&quot;styleselect&quot;,&quot;bold&quot;,&quot;italic&quot;,&quot;alignleft&quot;,&quot;aligncenter&quot;,&quot;alignright&quot;,&quot;bullist&quot;,&quot;numlist&quot;,&quot;outdent&quot;,&quot;indent&quot;,&quot;link&quot;,&quot;umbmediapicker&quot;,&quot;umbmacro&quot;,&quot;umbembeddialog&quot;],&quot;stylesheets&quot;:[&quot;StylesDropdown&quot;],&quot;maxImageSize&quot;:500,&quot;mode&quot;:&quot;classic&quot;},&quot;ignoreUserStartNodes&quot;:false,&quot;mediaParentId&quot;:null}" />
+    <DataType Name="Main Carousel" Id="Umbraco.NestedContent" Definition="450f3d88-3185-498d-8ee3-6e8a0ec09d50" DatabaseType="Ntext" Configuration="{&quot;contentTypes&quot;:[{&quot;ncAlias&quot;:&quot;carouselSlide&quot;,&quot;ncTabAlias&quot;:&quot;Content&quot;,&quot;nameTemplate&quot;:&quot;{{slideTitle}}&quot;}],&quot;minItems&quot;:0,&quot;maxItems&quot;:10,&quot;confirmDeletes&quot;:true,&quot;showIcons&quot;:true,&quot;hideLabel&quot;:false}" />
+  </DataTypes>
+  <MediaItems>
+    <MediaSet>
+      <Image id="1076" key="f1aee13d-514d-4b28-bfd4-2a7b8dbf686b" parentID="-1" level="1" creatorID="-1" sortOrder="1" createDate="2021-11-12T21:28:32" updateDate="2021-11-12T22:07:39" nodeName="carousel.jpg" urlName="carouseljpg" path="-1,1076" isDoc="" nodeType="1032" nodeTypeAlias="Image" writerName="" writerID="0" udi="umb://media/f1aee13d514d4b28bfd42a7b8dbf686b" mediaFilePath="/media/hpql32kn/carousel.jpg">
+        <umbracoFile><![CDATA[{
+  "crops": null,
+  "focalPoint": {
+    "left": 0.5,
+    "top": 0.5
+  },
+  "src": "/media/hpql32kn/carousel.jpg"
+}]]></umbracoFile>
+        <umbracoWidth><![CDATA[1920]]></umbracoWidth>
+        <umbracoHeight><![CDATA[1080]]></umbracoHeight>
+        <umbracoBytes><![CDATA[417481]]></umbracoBytes>
+        <umbracoExtension><![CDATA[jpg]]></umbracoExtension>
+      </Image>
+    </MediaSet>
+    <MediaSet>
+      <Image id="1077" key="6c9e4f4e-8978-48bb-8d1e-fae497ab0294" parentID="-1" level="1" creatorID="-1" sortOrder="0" createDate="2021-11-12T21:28:32" updateDate="2021-11-12T22:07:28" nodeName="code.jpg" urlName="codejpg" path="-1,1077" isDoc="" nodeType="1032" nodeTypeAlias="Image" writerName="" writerID="0" udi="umb://media/6c9e4f4e897848bb8d1efae497ab0294" mediaFilePath="/media/jbhj21dy/code.jpg">
+        <umbracoFile><![CDATA[{
+  "crops": null,
+  "focalPoint": {
+    "left": 0.5,
+    "top": 0.5
+  },
+  "src": "/media/jbhj21dy/code.jpg"
+}]]></umbracoFile>
+        <umbracoWidth><![CDATA[1920]]></umbracoWidth>
+        <umbracoHeight><![CDATA[1080]]></umbracoHeight>
+        <umbracoBytes><![CDATA[245968]]></umbracoBytes>
+        <umbracoExtension><![CDATA[jpg]]></umbracoExtension>
+      </Image>
+    </MediaSet>
+    <MediaSet>
+      <Image id="1078" key="4a1f03b6-11cc-410d-bc8a-d68128a9b19d" parentID="-1" level="1" creatorID="-1" sortOrder="2" createDate="2021-11-12T21:28:33" updateDate="2021-11-12T22:07:51" nodeName="navigation.jpg" urlName="navigationjpg" path="-1,1078" isDoc="" nodeType="1032" nodeTypeAlias="Image" writerName="" writerID="0" udi="umb://media/4a1f03b611cc410dbc8ad68128a9b19d" mediaFilePath="/media/wabb4swm/navigation.jpg">
+        <umbracoFile><![CDATA[{
+  "crops": null,
+  "focalPoint": {
+    "left": 0.5,
+    "top": 0.5
+  },
+  "src": "/media/wabb4swm/navigation.jpg"
+}]]></umbracoFile>
+        <umbracoWidth><![CDATA[1920]]></umbracoWidth>
+        <umbracoHeight><![CDATA[1080]]></umbracoHeight>
+        <umbracoBytes><![CDATA[403276]]></umbracoBytes>
+        <umbracoExtension><![CDATA[jpg]]></umbracoExtension>
+      </Image>
+    </MediaSet>
+    <MediaSet>
+      <Image id="1079" key="2082c6be-842f-4bd5-b92c-0ee480c7bdb9" parentID="-1" level="1" creatorID="-1" sortOrder="3" createDate="2021-11-12T21:28:33" updateDate="2021-11-12T22:08:02" nodeName="party.jpg" urlName="partyjpg" path="-1,1079" isDoc="" nodeType="1032" nodeTypeAlias="Image" writerName="" writerID="0" udi="umb://media/2082c6be842f4bd5b92c0ee480c7bdb9" mediaFilePath="/media/xddieibp/party.jpg">
+        <umbracoFile><![CDATA[{
+  "crops": null,
+  "focalPoint": {
+    "left": 0.5,
+    "top": 0.5
+  },
+  "src": "/media/xddieibp/party.jpg"
+}]]></umbracoFile>
+        <umbracoWidth><![CDATA[1920]]></umbracoWidth>
+        <umbracoHeight><![CDATA[1080]]></umbracoHeight>
+        <umbracoBytes><![CDATA[625415]]></umbracoBytes>
+        <umbracoExtension><![CDATA[jpg]]></umbracoExtension>
+      </Image>
+    </MediaSet>
+  </MediaItems>
+</umbPackage>

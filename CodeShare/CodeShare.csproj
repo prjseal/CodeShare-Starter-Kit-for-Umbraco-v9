@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<AssemblyVersion>2.0.0</AssemblyVersion>
+		<VersionPrefix>2.0.0</VersionPrefix>
+		<VersionSuffix>alpha003</VersionSuffix>
+		<InformationalVersion>2.0.0</InformationalVersion>
+		<TargetFramework>net5.0</TargetFramework>
+		<Authors>Paul Seal</Authors>
+		<ContentTargetFolders>.</ContentTargetFolders>
+		<Product>CodeShare</Product>
+		<PackageId>CodeShare</PackageId>
+		<Title>CodeShare</Title>
+		<Description>CodeShare Starter Kit for Umbraco</Description>
+		<PackageProjectUrl>https://github.com/prjseal/CodeShare-Starter-Kit-for-Umbraco-v9</PackageProjectUrl>
+		<PackageIcon>logo.png</PackageIcon>
+		<PackageIconUrl>https://github.com/prjseal/CodeShare-Starter-Kit-for-Umbraco-v9/blob/master/images/logo.png?raw=true</PackageIconUrl>
+		<RepositoryUrl>https://github.com/prjseal/CodeShare-Starter-Kit-for-Umbraco-v9</RepositoryUrl>
+		<RepositoryType>Git</RepositoryType>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="build\**\*.*">
+			<Pack>True</Pack>
+			<PackagePath>buildTransitive</PackagePath>
+		</None>
+
+		<Content Include="wwwroot\csusk-assets\**\*.*">
+			<ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+			<CopyToPublishDirectory>Always</CopyToPublishDirectory>
+		</Content>
+
+		<None Remove="Views\Components\Contact\default.cshtml" />
+
+		<Content Include="Views\**\*.*">
+			<ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+			<CopyToPublishDirectory>Always</CopyToPublishDirectory>
+		</Content>
+
+		<None Remove="Migrations\package.zip" />
+		<EmbeddedResource Include="Migrations\package.zip" />
+
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="9.1.1" />
+		<PackageReference Include="CodeShare.Core" Version="2.0.0-alpha003" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="../images/logo.png" Pack="true" PackPath="\" />
+	</ItemGroup>
+
+</Project>
